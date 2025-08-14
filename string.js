@@ -22,4 +22,4 @@ console.log("Length of str1:", str1.length);
 console.log("Convert string to uppercase", str2.toUpperCase());
 console.log("Convert string to lowercase", str1.toLowerCase());
 console.log("A part of the string from 0 to 4 is ..", str1.slice(0, 4));
-console.log("This is a method to concatenate strings..", str1 + str2);
+console.log("This is a method to concatenate strings..", str1.concat(str2));
