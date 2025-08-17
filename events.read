@@ -1,0 +1,25 @@
+This is a file to refer notes about Event Handling in JavaScript.
+
+An event is a change in state of an object.
+
+Inline event handling is a type of event handling where the event is handled within the html code.
+example line 9, in lecture8.html.
+
+JS Handling is a type of event handling where the event is handled in the javascript folder.
+This holds more priority than inline handling.
+
+Also, the script tag used to link JS to html should always be added to the end of the body tag.
+This is because the browser ensures HTML content loads(not compiled) first before JS starts running.
+This also prevents the DOM from accessing html elements that would not have been created yet.
+
+Event Object:
+Contains all the information about the event and its methods, properties.
+Let evt be an event object, evt.type displays the type of event(example, click)
+and evt.target mentions the target of the event object.
+
+Event Listeners:
+btn1.addEventListener(event, callback fn) - this is the syntax for event Listeners.
+They are used to create multiple changes for a particular event.
+For example, when a button is clicked, you want to print something and move to another web page.
+This can be done by event object but it creates two different functions where one function overrides another.
+But with EventListeners, we can attach multiple handlers to one event.
